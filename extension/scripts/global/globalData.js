@@ -399,6 +399,7 @@ const DEFAULT_STORAGE = {
 				miniProfileLastAction: new DefaultSetting({ type: "boolean", defaultValue: true }),
 				reviveProvider: new DefaultSetting({ type: "string", defaultValue: "" }),
 				pageTitles: new DefaultSetting({ type: "boolean", defaultValue: true }),
+				pageJump: new DefaultSetting({ type: "boolean", defaultValue: true }),
 				stackingMode: new DefaultSetting({ type: "boolean", defaultValue: false }),
 			},
 			profile: {
@@ -691,6 +692,9 @@ const DEFAULT_STORAGE = {
 				competition: new DefaultSetting({ type: "boolean", defaultValue: true }),
 				rankedWars: new DefaultSetting({ type: "boolean", defaultValue: true }),
 			},
+			pageJump: {
+				maxPages: new DefaultSetting({ type: "number", defaultValue: 5 }),
+			}
 		},
 		external: {
 			tornstats: new DefaultSetting({ type: "boolean", defaultValue: false }),
@@ -893,6 +897,7 @@ const DEFAULT_STORAGE = {
 	factiondata: new DefaultSetting({ type: "object", defaultValue: {} }),
 	localdata: {
 		tradeMessage: new DefaultSetting({ type: "number", defaultValue: 0 }),
+		pageJumpHistory: new DefaultSetting({ type: "object", defaultValue: {} }),
 		popup: {
 			calculatorItems: new DefaultSetting({ type: "array", defaultValue: [] }),
 		},
