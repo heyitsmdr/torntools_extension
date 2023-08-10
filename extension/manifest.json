@@ -217,14 +217,16 @@
 				"scripts/features/item-values/ttItemValues.css",
 				"scripts/features/total-item-cost/ttTotalItemCost.css",
 				"scripts/features/item-redirect/ttBazaarRedirect.css",
-				"scripts/features/bazaar-fill-max/ttBazaarFillMax.css"
+				"scripts/features/bazaar-fill-max/ttBazaarFillMax.css",
+				"scripts/features/bazaar-smart-price/ttBazaarSmartPrice.css"
 			],
 			"js": [
 				"scripts/features/drug-details/ttDrugDetails.js",
 				"scripts/features/item-values/ttItemValues.js",
 				"scripts/features/total-item-cost/ttTotalItemCost.js",
 				"scripts/features/item-redirect/ttBazaarRedirect.js",
-				"scripts/features/bazaar-fill-max/ttBazaarFillMax.js"
+				"scripts/features/bazaar-fill-max/ttBazaarFillMax.js",
+				"scripts/features/bazaar-smart-price/ttBazaarSmartPrice.js"
 			],
 			"run_at": "document_end"
 		},

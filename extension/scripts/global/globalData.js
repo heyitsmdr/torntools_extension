@@ -557,6 +557,7 @@ const DEFAULT_STORAGE = {
 				maxBuyIgnoreCash: new DefaultSetting({ type: "boolean", defaultValue: false }),
 				redirects: new DefaultSetting({ type: "boolean", defaultValue: true }),
 				redirectsScroll: new DefaultSetting({ type: "boolean", defaultValue: true }),
+				smartPrice: new DefaultSetting({ type: "boolean", defaultValue: true }),
 			},
 			trade: {
 				itemValues: new DefaultSetting({ type: "boolean", defaultValue: true }),
